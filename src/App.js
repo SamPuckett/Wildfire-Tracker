@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import Map from './components/Map';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Spinner from './components/Spinner';
 
 const App = () => {

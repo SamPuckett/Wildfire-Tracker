@@ -1,0 +1,35 @@
+.header__nav {
+	background: #000000;
+	background: -webkit-linear-gradient(bottom right, #000000, #242424);
+	background: -moz-linear-gradient(bottom right, #000000, #242424);
+	background: linear-gradient(to top left, #000000, #242424);
+	color: rgba(255, 255, 255, 0.88);
+	height: 64px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 12px;
+	font-size: 0.4rem;
+}
+
+.header__logo {
+	height: 24px;
+	margin-right: 20px;
+}
+
+.header__logo-hidden {
+	height: 24px;
+	visibility: hidden;
+}
+
+@media (min-width: 768px) {
+	.header__nav {
+		padding: 24px;
+		font-size: 0.66rem;
+	}
+
+	.header__logo {
+		margin-right: 0;
+	}
+}
