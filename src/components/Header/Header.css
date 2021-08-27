@@ -14,12 +14,17 @@
 }
 
 .header__logo {
-	height: 24px;
+	height: 50px;
 	margin-right: 20px;
+	border-radius: 50%;
+}
+
+.header__logo:hover {
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header__logo-hidden {
-	height: 24px;
+	height: 50px;
 	visibility: hidden;
 }
 

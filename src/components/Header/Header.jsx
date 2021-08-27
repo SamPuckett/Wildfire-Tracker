@@ -1,16 +1,16 @@
 // import { Icon } from '@iconify/react';
 // import locationIcon from '@iconify/icons-mdi/fire-alert';
-import NasaLogo from '../../images/nasa.png';
+import MeMoji from '../../images/MeMoji.webp';
 import './Header.css';
 
 const Header = () => {
 	return (
 		<header className="header__nav">
-			<img src={NasaLogo} alt="Nasa Logo" className="header__logo" />
-			<h1 className="navbar-brand mx-auto align-middle">
-				Wildfire Tracker (Powered By NASA)
-			</h1>
-			<img src={NasaLogo} alt="Nasa Logo" className="header__logo-hidden" />
+			<a href="http://samluvs.pizza/">
+				<img src={MeMoji} alt="Nasa Logo" className="header__logo" />
+			</a>
+			<h1 className="navbar-brand mx-auto align-middle">Wildfire Tracker</h1>
+			<img src={MeMoji} alt="Memoji" className="header__logo-hidden" />
 		</header>
 	);
 };
